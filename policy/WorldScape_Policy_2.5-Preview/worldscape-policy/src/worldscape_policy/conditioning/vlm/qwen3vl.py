@@ -1,10 +1,4 @@
-"""WorldScape-owned Qwen3-VL planning encoder.
-
-Adapted from DreamZero's ``qwen3_vl_interface``,
-``qwen3vl_qformer_backbone``, and ``layerwise_qformer``. Parameter names,
-shared-prefill generation, label construction, and state-dict layout are
-preserved so existing checkpoints load without remapping changes.
-"""
+"""Qwen3-VL planning encoder adapted from DreamZero."""
 
 from __future__ import annotations
 

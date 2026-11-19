@@ -1,8 +1,4 @@
-"""Frozen Qwen+LoRA prefix features for native WSP Auto.
-
-WSP observations are RGB. Only this encoder adapts current/history pixels to
-the trained encoder's BGR-valued PIL inputs, before bilinear resize.
-"""
+"""Frozen Qwen features with checkpoint-specific color preprocessing."""
 from __future__ import annotations
 
 import hashlib

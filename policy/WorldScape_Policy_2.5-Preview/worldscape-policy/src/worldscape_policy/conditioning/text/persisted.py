@@ -1,4 +1,4 @@
-"""Portable 5B T5 features generated from the actual native initialization weights."""
+"""Cached T5 instruction features."""
 import hashlib
 import json
 import os

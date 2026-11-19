@@ -1,4 +1,4 @@
-"""RGB / Z-score inference for the isolated RoboDojo LeRobot training recipe."""
+"""RoboDojo image and action normalization."""
 from __future__ import annotations
 
 from collections.abc import Mapping

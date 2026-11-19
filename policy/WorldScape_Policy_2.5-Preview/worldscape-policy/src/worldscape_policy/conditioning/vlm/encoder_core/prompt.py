@@ -1,8 +1,4 @@
-"""Prefix_v2 prompt codec for the frozen visual-language encoder.
-
-Original implementation credit: Westlake DI.
-Checkpoint terms are retained in LICENSE-model.md.
-"""
+"""Visual-language prompt formatting."""
 from __future__ import annotations
 
 import torch

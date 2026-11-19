@@ -1,4 +1,4 @@
-"""Frozen VLM whose base and LoRA parameters live in the native policy shards."""
+"""VLM encoder loaded from policy checkpoint shards."""
 from torch import nn
 import torch
 

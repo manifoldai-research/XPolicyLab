@@ -1,8 +1,4 @@
-"""Built-in production dataset registrations.
-
-Importing this module is intentionally cheap. Optional HDF5/Parquet readers are
-only imported when the corresponding dataset is opened or indexed.
-"""
+"""Dataset registrations with lazy reader imports."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Frozen, checkpoint-local VLM features with a separately verified source identity."""
+"""Cached VLM features with source identity validation."""
 from __future__ import annotations
 
 import hashlib

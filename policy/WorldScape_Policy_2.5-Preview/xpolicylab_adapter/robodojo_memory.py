@@ -1,4 +1,4 @@
-"""VLM direct-prefix or T5 fusion, with unchanged 5B VAE history."""
+"""Joint T5 and VLM conditioning with visual history."""
 from collections import OrderedDict
 import numpy as np
 import torch

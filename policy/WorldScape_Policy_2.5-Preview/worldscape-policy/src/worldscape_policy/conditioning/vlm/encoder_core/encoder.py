@@ -1,8 +1,4 @@
-"""Frozen Qwen feature encoder with the original numerical operations.
-
-Original implementation credit: Westlake DI.
-Checkpoint terms are retained in LICENSE-model.md.
-"""
+"""Frozen Qwen visual-language feature encoder."""
 from __future__ import annotations
 
 from typing import Any, Optional

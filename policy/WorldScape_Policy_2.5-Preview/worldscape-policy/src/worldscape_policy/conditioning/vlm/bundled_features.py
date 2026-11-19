@@ -1,4 +1,4 @@
-"""Checkpoint-local frozen VLM with the original feature computation."""
+"""VLM encoder loaded from local checkpoint assets."""
 from .features import VLMFeatureEncoder
 from .cached_features import validate_bundled_assets
 
